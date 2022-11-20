@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-# A simple Python manager for "Turing Smart Screen" 3.5" IPS USB-C display
-# https://github.com/mathoudebine/turing-smart-screen-python
-
+# A video stream app for "Turing Smart Screen" 3.5" IPS USB-C display
+# https://github.com/PhazerTech/turing-smart-screen-python-weather-app
 import os
 import signal
 import sys
@@ -17,7 +16,9 @@ from library.log import logger
 
 # hard coded variables
 screen_brightness = 50
-# default is set for USB webcam
+# default video source is set for USB webcam
+# for live rtsp video stream, replace 1 with your rtsp address as a string.
+# rtsp example: cv2.VideoCapture("rtsp://192.168.1.10:8554/stream2")
 cam_feed = cv2.VideoCapture(1)
 
 # Set your COM port e.g. COM3 for Windows, /dev/ttyACM0 for Linux, etc. or "AUTO" for auto-discovery

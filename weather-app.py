@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # A weather and clock app for "Turing Smart Screen" 3.5" IPS USB-C display
+# https://github.com/PhazerTech/turing-smart-screen-python-weather-app
 import os
 import signal
 import sys
