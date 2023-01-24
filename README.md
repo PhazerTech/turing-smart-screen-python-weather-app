@@ -12,7 +12,7 @@ Some additional packages that may be required which should be installed using pi
 pip install requests json geocoder
 
 weather-app gives the date, time, and weather in your current location with real time updates.
-Note: You need to register for a free OpenWeatherMap API key and replace the corresponding variable in weather-app.py with your API key.
+Note: You need to register for a free OpenWeatherMap API key and set the variable "api_key" with your key in weather-app.py.
 https://openweathermap.org/appid
 
 camera-viewer was a test to see if the screen can display video.  It works, but at a very low FPS.
